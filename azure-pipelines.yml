@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: Centos-latest
+  vmImage: centos7
 
 steps:
 - task: NodeTool@0
